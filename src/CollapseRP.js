@@ -8,12 +8,14 @@ export default class CollapseRP extends Component {
             open_styles: {
                 maxHeight: '100px',
                 opacity: 1,
-                transition: '0.3s all ease-out'
+                transition: '0.3s all ease-out',
+                visibility: 'visible'
             },
             closed_styles: {
                 maxHeight: 0,
                 opacity: 0,
-                transition: '0.3s all ease-out'
+                transition: '0.3s all ease-out',
+                visibility: 'hidden'
             }
         }
     }
